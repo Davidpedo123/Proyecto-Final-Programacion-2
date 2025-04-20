@@ -1,0 +1,18 @@
+﻿@* OrdenCompra.Web/Views/Home/Index.cshtml *@
+@{
+    ViewData["Title"] = "Inicio";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Sistema de Órdenes de Compra</h1>
+    <p>Bienvenido al sistema de gestión de órdenes de compra</p>
+    
+    <div class="mt-5 d-flex justify-content-center gap-3">
+        <a asp-controller="OrdenCompra" asp-action="Index" class="btn btn-primary btn-lg">
+            Ver Órdenes
+        </a>
+        <a asp-controller="Proveedor" asp-action="Index" class="btn btn-success btn-lg">
+            Gestionar Proveedores
+        </a>
+    </div>
+</div>

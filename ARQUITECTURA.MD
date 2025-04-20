@@ -11,10 +11,15 @@ OrdenCompra.sln
 │   │   └── (Migraciones)
 │   └── Repositories
 └── OrdenCompra.Web
+│   ├── Controllers
+│   │   └── (Todos tus .cs de Controladores)
+│   ├── Program.cs (entry point)
+│   ├── appsettings.json
+│   ├── appsettings.Development.json
+│   ├── wwwroot (si es MVC)
+│   └── (Vistas o Razor Pages, si corresponde)
+└── OrdenCompra.API
     ├── Controllers
-    │   └── (Todos tus .cs de Controladores)
-    ├── Program.cs (entry point)
-    ├── appsettings.json
-    ├── appsettings.Development.json
-    ├── wwwroot (si es MVC)
-    └── (Vistas o Razor Pages, si corresponde)
+    │  
+    ├── Interfaces
+  
